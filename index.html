@@ -3,13 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Todo 3</title>
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"> -->
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-
+    <div class="container">
+        <main>
+            <div class="todo__wrapper">
+                <h1 class='todo__heading'><span class="green">TODO</span>List</h1>
+                <form action="" class="todo__form">
+                    <input type="text" class="todo__input" placeholder='What Do You Want to Do..'>
+                    <button type="submit"><span>+</span></button>
+                </form>
+                <ul class="todo__list">
+                    <li>
+                        <span class='item'>Sport</span>
+                        <div class="icon-wrapper">
+                            <i class="fa fa-pencil-square-o edit" aria-hidden="true"></i>
+                            <i class="fa fa-trash trash" aria-hidden="true"></i>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </main>
+    </div>
     <script src="js/app.js"></script>
 </body>
 </html>
