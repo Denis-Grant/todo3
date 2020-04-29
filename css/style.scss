@@ -17,6 +17,9 @@ body {
         list-style: none;
         padding: 0;
     }
+    .green {
+        color: #5DC31E73;
+    }
     // GLOBALS END 
 }
 main {
@@ -67,16 +70,19 @@ main {
             }
         }
         ul {
-            border-bottom: 2px solid #fff;
             li {
                 display: flex;
                 justify-content: space-between;
-                margin: 20px 0;
+                margin: 14px 0;
+                border-bottom: 2px solid #fff;
+
                 .item {
                     font-size: 20px;
+                    padding: 6px 14px 10px 0;
                 }
                 i {
                     font-size: 20px;
+                    cursor: pointer;
                 }
                 .edit {
                     margin-right: 10px;
